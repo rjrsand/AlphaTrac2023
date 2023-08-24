@@ -1,0 +1,13 @@
+{
+  "bootstrap5": {
+    "basic": {
+      "primary": "#111820",
+      "light": "#ffffff",
+      "headings-font-family": "Prompt:500",
+      "font-family-base": "Prompt:300",
+      "font-family-sans-serif": "Prompt:300",
+      "link-color": "#d6fdff"
+    },
+    "advanced": {}
+  }
+}
