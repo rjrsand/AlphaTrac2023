@@ -26,24 +26,24 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col">
-                    <div class="d-flex">
-                        <p>Discover our new tools to supercharge your motor carrier and logistics management.</p>
+                <div class="col-5 lead">
+                    <div class="d-flex justify-content-center">
+                        <p class="style2">Discover our new tools to supercharge your motor carrier and logistics management.</p>
                     </div>
                 </div>
             </div>
-            <div class="row border-2 rounded border-secondary border mb-4 style2" id="carrierBeacon">
-                <div class="text-center col align-self-center">
+
+            <div class="row border-2 rounded border-secondary border mb-4" id="carrierBeacon">
+                <div class="align-self-center text-end col-2">
                     <a><img src="assests/carrier-beacon-logo.png"></a>
 
                 </div>
-                <div class="align-self-center text-center col-1 border-secondary border border-1 style3">
-                    <a><img src="assests/Rectangle%201.webp"></a>
-
+                <div class="align-self-center col-1">
+                    <hr class="hrvertical">
                 </div>
-                <div class="col">
+                <div class="col-5">
                     <h1>Carrier Beacon</h1>
-                    <p>Find, qualify, organize and contact motor carriers from anywhere in the country.</p>
+                    <p class="style3 lead">Find, qualify, organize and contact motor carriers from anywhere in the country.</p>
 
                 </div>
             </div>
@@ -68,6 +68,7 @@
 
 
     <script src="bootstrap/5/js/bootstrap.min.js"></script>
+    <?php include 'footer.php'; ?>
 </body>
 
 </html>
