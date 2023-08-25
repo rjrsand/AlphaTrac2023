@@ -1,3 +1,7 @@
+main {
+    min-height: 25vh;
+}
+
 .btn{
     font-weight: 300 !important;
     min-width: 150px;
@@ -78,11 +82,6 @@ border-radius: 6px;
     min-height: 50px;
 }
 
-.style2{
-    min-width: 555px;
-    min-height: 100px;
-}
-
 .sepImg {
   position: absolute;
 width: 1px;
@@ -91,4 +90,17 @@ left: 244px;
 top: 375px;
 
 background: #DEE2E6;
+}
+
+.hrvertical {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  width: 66px;
+  height: 2px;
+}
+.style2 {
+    font-size: 24px;
+}
+.style3 {
+    font-size: 22px;
 }
