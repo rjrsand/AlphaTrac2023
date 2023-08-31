@@ -37,4 +37,10 @@
     });
   }
 
+  document.getElementById("btn1").addEventListener("click", function () {
+    this.classList.toggle("bg-primary");
+    this.classList.toggle("text-light");
+  });
+
+
 })()
