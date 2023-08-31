@@ -11,64 +11,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="bootstrap/5/css/bootstrap.min.css" />
+    <script src="dmxAppConnect/dmxBootstrap5Navigation/dmxBootstrap5Navigation.js" defer></script>
 </head>
 
 <body is="dmx-app" id="index">
-    <?php include 'header.php'; ?>
-    <main class="mt-3">
-        <div class="container">
+    <header class="bg-light">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col">
-                    <div class="d-flex">
-                        <h1>Products</h1>
-                    </div>
-
+                    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-transparent ps-4 pe-4">
+                        <a class="navbar-brand ms-auto" href="#">
+                            <img width="220px" height="50px"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1_collapse" aria-controls="navbar1_collapse" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbar1_collapse">
+                            <div class="navbar-nav">
+                                <a class="nav-item nav-link active" href="#">Home</a>
+                                <a class="nav-item nav-link" href="#">About</a>
+                                <a class="nav-item nav-link" href="#">Contact</a>
+                            </div>
+                        </div>
+                    </nav>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-5 lead">
-                    <div class="d-flex justify-content-center">
-                        <p class="style2">Discover our new tools to supercharge your motor carrier and logistics management.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row border-2 rounded border-secondary border mb-4" id="carrierBeacon">
-                <div class="align-self-center text-end col-2">
-                    <a><img src="assests/carrier-beacon-logo.png"></a>
-
-                </div>
-                <div class="align-self-center col-1">
-                    <hr class="hrvertical">
-                </div>
-                <div class="col-5">
-                    <h1>Carrier Beacon</h1>
-                    <p class="style3 lead">Find, qualify, organize and contact motor carriers from anywhere in the country.</p>
-
-                </div>
-            </div>
-            <div class="row">
-                <div class="col offset-10 mt-2 mb-1">
-                    <button id="btn1" class="btn border-2 rounded border-secondary w-100 text-secondary">
-                        Continue<i class="fas fa-arrow-right ps-2"></i>
-                    </button>
-                </div>
-            </div>
-            <div class="row">
-                <div class="offset-10 col mt-1">
-                    <button id="btn2" class="btn border-2 rounded border-secondary w-100 bg-primary text-light">Continue<i class="fas fa-arrow-right fa-fw ps-2"></i></button>
-                </div>
+        </div>
+    </header>
+    <main class="vh-100">
+        <div class="h-100 container-fluid">
+            <div class="row h-100">
+                <div class="col-lg-6 main-col-pt"></div>
+                <div class="col-lg-6 bg-primary main-col-pt"></div>
             </div>
         </div>
     </main>
 
 
 
-
-
-
     <script src="bootstrap/5/js/bootstrap.min.js"></script>
-    <?php include 'footer.php'; ?>
 </body>
 
 </html>
