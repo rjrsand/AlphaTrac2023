@@ -21,7 +21,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col">
-                    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-transparent ps-4 pe-4">
+                    <nav class="navbar navbar-expand-lg fixed-top bg-transparent ps-4 pe-4 navbar-light">
                         <a class="navbar-brand ms-auto" href="#">
                             <img width="220px" height="50px" src="assets/alphatrac-logo.svg"></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1_collapse" aria-controls="navbar1_collapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -95,10 +95,10 @@
 
 
 
-    <script src="bootstrap/5/js/bootstrap.min.js">
+    <script src="bootstrap/5/js/bootstrap.min.js"></script>
 
 
-    </script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
