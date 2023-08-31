@@ -121,3 +121,22 @@ background: #DEE2E6;
 .style6 {
     font-size: 16px;
 }
+
+.article {
+  overflow-y: scroll;
+  height: 62vh;
+  font-size: 20px;
+}
+
+.article::-webkit-scrollbar {
+  width: 12px;
+}
+
+.article::-webkit-scrollbar-thumb {
+  background-color: var(#868e96) !important;
+  border-radius: 6px;
+}
+
+.article::-webkit-scrollbar-track {
+  background-color: var(#111820);
+}
