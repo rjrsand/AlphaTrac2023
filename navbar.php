@@ -19,15 +19,27 @@
 
 <body is="dmx-app" id="navbar">
     <div is="dmx-browser" id="browser1"></div>
-    <div class="container">
-        <div class="nav w-100 justify-content-end bg-transparent">
-            <a class="nav-item nav-link fw-light" dmx-class:bold="" href="products.php">Products
-                <a class="nav-item nav-link fw-light" href="about.php">About</a>
-                <a class="nav-item nav-link fw-light" href="newsletter.php">Newsletter</a>
-                <a class="nav-item nav-link fw-light" href="contact.php">Contact</a>
-            </a>
+    <main>
+        <div class="container">
+            <div class="row">
+
+                <div class="col offset-6">
+                    <div class="d-flex">
+                        <div class="nav w-100 justify-content-end bg-primary">
+                            <a class="nav-item nav-link fw-light" dmx-class:bold="" href="products.php">Products
+                                <a class="nav-item nav-link fw-light" href="about.php">About</a>
+                                <a class="nav-item nav-link fw-light" href="newsletter.php">Newsletter</a>
+                                <a class="nav-item nav-link fw-light" href="contact.php">Contact</a>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
-    </div>
+    </main>
+
+
     <script src="bootstrap/5/js/bootstrap.bundle.min.js"></script>
 </body>
 
