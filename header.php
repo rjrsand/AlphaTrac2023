@@ -16,9 +16,9 @@
 <body is="dmx-app" id="header">
     <main class="mb-3 mt-3">
         <div class="container">
-            <header>
-                <img src="assests/alphatrac-logo.svg" width="220" height="24" class="img-fluid" id="logo">
-            </header>
+            <div class="row">
+                <div class="col-6"><img src="assets/alphatrac-logo.svg" width="220" height="24" class="img-fluid" id="logo"></div>
+            </div>
         </div>
     </main>
 
