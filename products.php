@@ -48,7 +48,7 @@
                         <h2 class="ms-2 style4">Products</h2>
                     </div>
                     <div class="d-flex style2 fw-light mt-2 ms-2">
-                        <h3 class="fw-light mb-4">Discover our new tools to supercharge your motor carrier and logistics management.</h3>
+                        <h4 class="fw-light mb-4">Discover our new tools to supercharge your motor carrier and logistics management.</h4>
                     </div>
                     <div class="row border rounded g-0 mt-2 ms-2 me-2">
                         <div class="style7 text-end offset-0 col-3 align-self-center">
@@ -84,9 +84,9 @@
                         <p>Thanks for your interest.</p>
                     </div>
                     <div class="d-flex justify-content-center">
-                        <a class="nav-item nav-link text-light" href="#" dmx-on:click="browser1.goto('privacy-policy.php')">Privacy Policy</a>
+                        <a class="nav-item nav-link text-light" href="privacy-policy.php">Privacy Policy</a>
                         <a class="nav-item nav-link text-light">|</a>
-                        <a class="nav-item nav-link text-light" href="#" dmx-on:click="browser1.goto('terms-of-service.php')">Terms of Service</a>
+                        <a class="nav-item nav-link text-light" href="terms-of-service.php">Terms of Service</a>
                     </div>
                 </div>
             </div>
