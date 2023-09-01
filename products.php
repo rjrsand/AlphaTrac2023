@@ -47,7 +47,7 @@
                     <div class="d-flex">
                         <h2 class="ms-2 style4">Products</h2>
                     </div>
-                    <div class="d-flex style2 fw-light mt-2 ms-2">
+                    <div class="d-flex style2 mt-2 ms-2">
                         <h4 class="fw-light mb-4">Discover our new tools to supercharge your motor carrier and logistics management.</h4>
                     </div>
                     <div class="row border rounded g-0 mt-2 ms-2 me-2">
