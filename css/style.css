@@ -166,3 +166,8 @@ background: #DEE2E6;
   background-color: var(#111820);
   border-radius: 6px;
 }
+
+#text3 {
+  height: 30vh;
+  overflow: auto;
+}
