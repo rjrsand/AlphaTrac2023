@@ -42,5 +42,10 @@
     this.classList.toggle("text-light");
   });
 
+  document.getElementById('btn2').addEventListener('click', function () {
+    this.classList.toggle("bg-light");
+    this.classList.toggle("text-secondary");
+  });
+
 
 })()

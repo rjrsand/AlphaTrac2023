@@ -77,6 +77,31 @@ line-height: 30px;
 color: #7D7D7D;
 }
 
+.btn2 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+
+position: absolute;
+width: 150px;
+height: 50px;
+left: 455px;
+top: 487px;
+
+background: #111820;
+border: 1px solid #c6c6c6;
+border-radius: 6px;
+
+/* Continue → */
+
+font-family: 'Prompt';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 30px;
+
+color: #7D7D7D;
+}
+
 .style1{
     min-width: 150px;
     min-height: 50px;
@@ -101,6 +126,7 @@ background: #DEE2E6;
 }
 .style2 {
     font-size: 24px;
+    font-weight: light !important;
 }
 .style3 {
     font-size: 22px;
