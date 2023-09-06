@@ -22,8 +22,7 @@ main {
     min-width: 150px;
     min-height: 50px;
 }
-
-.nav-link.active {
+.nav-link:active {
   font-weight: bold;
 }
 

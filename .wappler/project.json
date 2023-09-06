@@ -22,14 +22,19 @@
   "targets": [
     {
       "name": "Development",
-      "remoteURL": "http://localhost:3000/",
-      "access": "local",
-      "localFolder": ""
+      "remoteURL": "https://landing.alphatracit.com",
+      "access": "sftp",
+      "ftpServer": "sftp://access939279168.webspace-data.io",
+      "ftpPort": 22,
+      "ftpUser": "u110007393",
+      "ftpRemoteFolder": "/landing.alphatracit.com",
+      "ftpPassword": "28cfabb6a2ce81ab7b"
     }
   ],
   "activeTarget": "Development",
   "useRouting": true,
   "addBase": true,
   "routingHandler": "apache",
-  "projectType": "web"
+  "projectType": "web",
+  "extensions": []
 }

@@ -24,12 +24,12 @@
                     <nav class="navbar navbar-expand-lg fixed-top bg-transparent ps-4 pe-4 navbar-light">
                         <a class="navbar-brand ms-auto" href="#">
                             <img width="220px" height="50px" src="assets/alphatrac-logo.svg"></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1_collapse" aria-controls="navbar1_collapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1_collapse" aria-controls="navbar1_collapse" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse justify-content-end fw-light" id="navbar1_collapse">
                             <div class="navbar-nav">
-                                <a class="nav-item nav-link active text-light" href="#">Products</a>
+                                <a class="nav-item nav-link text-light" href="#">Products</a>
                                 <a class="nav-item nav-link text-light" href="#">About</a>
                                 <a class="nav-item nav-link text-light" href="#">Newsletter</a>
                                 <a class="nav-item nav-link text-light" href="#">Contact</a>
@@ -50,23 +50,23 @@
                     <div class="d-flex style2 mt-2 ms-2">
                         <h4 class="fw-light mb-4">Discover our new tools to supercharge your motor carrier and logistics management.</h4>
                     </div>
-                    <div class="row border rounded g-0 mt-2 ms-2 me-2">
-                        <div class="style7 text-end offset-0 col-3 align-self-center">
-                            <a><img src="assets/carrier-beacon-logo.png" class="img-fluid" width="154px" height="60px"></a>
+                    <div class="row border rounded g-0 mt-2 ms-2 me-2 pt-1 pb-1">
+                        <div class="style7 offset-0 align-self-center col-12 col-lg-auto text-start">
+                            <a><img src="assets/carrier-beacon-logo.png" class="img-fluid mt-2 mb-2 ms-3" width="154px" height="60px"></a>
                         </div>
-                        <div class="align-self-center col-1 d-flex">
+                        <div class="align-self-center d-none d-sm-flex col-1">
                             <hr class="hrvertical" id="hrvertical">
                         </div>
                         <div class="col">
 
-                            <h2 class="style5 mt-2">Carrier Beacon</h2>
-                            <p class="style6 fw-light">Find, qualify, organize and contact motor carriers from anywhere in the country.</p>
+                            <h2 class="style5 mt-2 mb-1 ms-3 me-3">Carrier Beacon</h2>
+                            <p class="style6 fw-light ms-3 me-3">Find, qualify, organize and contact motor carriers from anywhere in the country.</p>
 
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12 text-end">
-                            <button id="btn1" class="btn border rounded text-secondary mt-4 me-2" dmx-on:click="">Continue<i class="fas fa-arrow-right ps-2"></i></button>
+                            <button id="btn1" class="btn border rounded text-secondary mt-4 mb-3 me-2" dmx-on:click="">Continue<i class="fas fa-arrow-right ps-2"></i></button>
                         </div>
                     </div>
                 </div>
