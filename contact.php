@@ -67,8 +67,8 @@
                         <input id="text2" name="text1" type="email" class="form-control mt-3 mb-3" placeholder="Your email..." required="">
                     </div>
                     <div class="d-flex fw-light mt-2 ms-2 text-break">
+                        <textarea id="text3" class="form-control" placeholder="Your message to our team..." required="true"></textarea>
 
-                        <input id="text3" name="text3" type="text" class="form-control mt-3 mb-3 style7" placeholder="Your message to our team..." required="">
 
                     </div>
                     <div class="row">
