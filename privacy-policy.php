@@ -52,7 +52,7 @@
                             <div class="d-flex">
                                 <article class="article">
                                     <p class="fw-light ps-3 pe-2">
-                                        <b>Introduction</b><br><br>
+                                        <br><b>Introduction</b><br><br>
                                         Welcome to Carrier Beacon, a product of AlphaTrac. We are a web-based platform designed to assist with finding, organizing, monitoring, and contacting registered freight carriers across the United States and parts of Canada. Our services are designed to streamline your freight management process and provide you with comprehensive tools and solutions for your motor carrier needs.
                                         This Terms of Service Agreement ("Agreement") is a legal agreement between you (either an individual or entity) and AlphaTrac, the company that owns and operates the Carrier Beacon platform. This Agreement sets forth the terms and conditions that govern your use of our services.
                                         <br><br><b>Acceptance of Terms</b><br><br>
@@ -75,7 +75,7 @@
                 </div>
                 <div class="col-lg-6 bg-primary main-col-pt text-light text-center fw-light align-self-center h-100 gx-5">
                     <div class="d-flex justify-content-center mt-5 mb-5">
-                        <a><img class="img-fluid" src="assets/alpha-logo.svg" width="253" height="253" id="article"></a>
+                        <a><img class="img-fluid" src="assets/alpha-logo.svg" width="253" height="253"></a>
                     </div>
                     <div class="d-flex justify-content-center mt-5 mb-5">
                         <h3>Welcome to AlphaTrac.</h3>
