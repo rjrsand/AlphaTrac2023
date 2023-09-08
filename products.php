@@ -51,7 +51,7 @@
                         <h4 class="fw-light mb-4">Discover our new tools to supercharge your motor carrier and logistics management.</h4>
                     </div>
                     <div class="row border rounded g-0 mt-2 ms-2 me-2 pt-1 pb-1">
-                        <div class="style7 offset-0 align-self-center col-12 col-lg-auto text-start">
+                        <div class="offset-0 align-self-center col-12 col-lg-auto text-start ps-2">
                             <a><img src="assets/carrier-beacon-logo.png" class="img-fluid mt-2 mb-2 ms-3" width="154px" height="60px"></a>
                         </div>
                         <div class="align-self-center d-none d-sm-flex col-1">
