@@ -61,13 +61,16 @@
                     </div>
                     <p class="style2 ms-2 lead">Our team is happy to address your question, concern, or general message. Please tell us...</p>
                     <div class="d-flex fw-light mt-2 ms-2">
-                        <input id="text1" name="text1" type="text" class="form-control mt-3 mb-3" placeholder="Your name..." required="">
+                        <label for="user-name"></label>
+                        <input id="user-name" name="user-name" type="text" class="form-control mt-3 mb-3" placeholder="Jane Smith" required="">
                     </div>
                     <div class="d-flex fw-light mt-2 ms-2">
-                        <input id="text2" name="text1" type="email" class="form-control mt-3 mb-3" placeholder="Your email..." required="">
+                        <label for="user-email"> </label>
+                        <input id="user-email" name="user-email" type="email" class="form-control mt-3 mb-3" placeholder="jane@smithy.co" required="">
                     </div>
                     <div class="d-flex fw-light mt-2 ms-2 text-break">
-                        <textarea id="text3" class="form-control" placeholder="Your message to our team..." required="true"></textarea>
+                        <label for="message"></label>
+                        <textarea id="message" class="form-control" placeholder="Your message to our team..." required="true"></textarea>
 
 
                     </div>
