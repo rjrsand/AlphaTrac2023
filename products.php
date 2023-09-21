@@ -7,54 +7,32 @@
     <meta charset="UTF-8">
     <title>Untitled Document</title>
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="bootstrap/5/css/bootstrap.min.css" />
     <script src="dmxAppConnect/dmxBootstrap5Navigation/dmxBootstrap5Navigation.js" defer></script>
     <script src="dmxAppConnect/dmxBrowser/dmxBrowser.js" defer></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-VhBcF/php0Z/P5ZxlxaEx1GwqTQVIBu4G4giRWxTKOCjTxsPFETUDdVL5B6vYvOt" crossorigin="anonymous" />
 </head>
 
 <body is="dmx-app" id="index">
     <div is="dmx-browser" id="browser1"></div>
-    <header class="bg-light">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col">
-                    <nav class="navbar navbar-expand-lg fixed-top bg-transparent ps-4 pe-4 navbar-light">
-                        <a class="navbar-brand ms-auto" href="#">
-                            <img width="220px" height="50px" src="assets/alphatrac-logo.svg"></a>
-                        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1_collapse" aria-controls="navbar1_collapse" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse justify-content-end fw-light" id="navbar1_collapse">
-                            <div class="navbar-nav">
-                                <a class="nav-item nav-link text-light" href="#">Products</a>
-                                <a class="nav-item nav-link text-light" href="#">About</a>
-                                <a class="nav-item nav-link text-light" href="#">Newsletter</a>
-                                <a class="nav-item nav-link text-light" href="#">Contact</a>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
+    <?php include 'comp--header_navbar.php'; ?>
     <main class="vh-100">
         <div class="h-100 container-fluid">
             <div class="row h-100">
-                <div class="col-lg-6 main-col-pt align-self-center gx-5">
+                <div class="col-lg-6 main-col-pt align-self-center gx-5 pt-5">
                     <div class="d-flex">
-                        <h2 class="ms-2 style4">Products</h2>
+                        <h2 class="style4 mt-4 ms-2">Products</h2>
                     </div>
                     <div class="d-flex style2 mt-2 ms-2">
-                        <h4 class="fw-light mb-4">Discover our new tools to supercharge your motor carrier and logistics management.</h4>
+                        <h4 class="fw-light mb-4 lh-base">Discover our suite of tools to supercharge your motor carrier and logistics management.</h4>
                     </div>
                     <div class="row border rounded g-0 mt-2 ms-2 me-2 pt-1 pb-1">
                         <div class="offset-0 align-self-center col-12 col-lg-auto text-start ps-2">
-                            <a><img src="assets/carrier-beacon-logo.png" class="img-fluid mt-2 mb-2 ms-3" width="154px" height="60px"></a>
+                            <a><img src="assets/carrier-beacon-logo.png" class="img-fluid mt-3 mb-3 ms-3" width="154px" height="60px"></a>
                         </div>
-                        <div class="align-self-center d-none d-sm-flex col-1">
+                        <div class="align-self-center col-1 d-none d-lg-block">
                             <hr class="hrvertical" id="hrvertical">
                         </div>
                         <div class="col">
@@ -66,28 +44,12 @@
                     </div>
                     <div class="row">
                         <div class="col-12 text-end">
-                            <button id="btn1" class="btn border rounded text-secondary mt-4 mb-3 me-2" dmx-on:click="">Continue<i class="fas fa-arrow-right ps-2"></i></button>
+                            <button id="btn1" class="btn border rounded text-secondary mt-4 mb-3 me-2" dmx-on:click="">Continue&nbsp;<i class="fa-arrow-right ps-2 fal fa-fw"></i></button>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 bg-primary main-col-pt text-light text-center fw-light align-self-center h-100 gx-5">
-                    <div class="d-flex justify-content-center mt-5 mb-5">
-                        <a><img class="img-fluid" src="assets/alpha-logo.svg" width="253" height="253"></a>
-                    </div>
-                    <div class="d-flex justify-content-center mt-5 mb-5">
-                        <h3>Welcome to AlphaTrac.</h3>
-                    </div>
-                    <div class="d-flex  style5">
-                        <p>Software solutions for businesses and individuals looking to supercharge their motor carrier and logistics management.</p>
-                    </div>
-                    <div class="d-flex justify-content-center style5 fst-italic mt-5 mb-5">
-                        <p>Thanks for your interest.</p>
-                    </div>
-                    <div class="d-flex justify-content-center">
-                        <a class="nav-item nav-link text-light" href="privacy-policy.php">Privacy Policy</a>
-                        <a class="nav-item nav-link text-light">|</a>
-                        <a class="nav-item nav-link text-light" href="terms-of-service.php">Terms of Service</a>
-                    </div>
+                <div class="col-lg-6 bg-primary main-col-pt text-light text-center fw-light gx-5 h-100 overflow-auto">
+                    <?php include 'comp--alphatrac_right_col.php'; ?>
                 </div>
             </div>
         </div>
