@@ -1,3 +1,4 @@
 Order deny,allow
 Deny from all
 Allow from 71.74.97.67
+Allow from 24.95.54.162
