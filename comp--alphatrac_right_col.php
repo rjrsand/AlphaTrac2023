@@ -2,7 +2,7 @@
 <div class="d-flex flex-column justify-content-between h-100">
     <div class="d-flex flex-column">
         <div class="d-flex justify-content-center mt-5 mb-5">
-            <a><img class="img-fluid" src="assets/alpha-logo.svg" width="253" height="253"></a>
+            <a><img class="img-fluid" src="assets/new-alphatrac-logo.svg" width="253" height="253"></a>
         </div>
         <div class="d-flex justify-content-center mt-4 mb-3">
             <h3>Welcome to AlphaTrac.</h3>

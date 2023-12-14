@@ -27,6 +27,7 @@ class App
     public $response;
     public $session;
 
+    public $arrays;
     public $db;
     public $mail;
     public $auth;
@@ -44,6 +45,7 @@ class App
         $this->response = new Response($this);
         $this->session = new Session();
 
+        $this->arrays = array();
         $this->db = array();
         $this->mail = array();
         $this->auth = array();

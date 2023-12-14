@@ -1,4 +1,4 @@
-(function () {
+(function() {
 
   // Call init when DOM is ready
   if (document.readyState === 'loading') { // Loading hasn't finished yet
@@ -20,13 +20,13 @@
   }
 
   function _update() {
-    var url = window.location.href;
+  	var url = window.location.href;
 
-    document.querySelectorAll('a.nav-link:not([data-bs-toggle]), a.dropdown-item').forEach(function (elem) {
-      elem.classList.toggle('active', elem.href == url || elem.href == url.split("?")[0].split("#")[0]);
-    });
+  	document.querySelectorAll('a.nav-link:not([data-bs-toggle]), a.dropdown-item').forEach(function(elem) {
+   		elem.classList.toggle('active', elem.href == url || elem.href == url.split("?")[0].split("#")[0]);
+  	});
 
-    document.querySelectorAll('a.dropdown-item.active').forEach(function (elem) {
+    document.querySelectorAll('a.dropdown-item.active').forEach(function(elem) {
       var theItem = elem.closest('.nav-item.dropdown');
       if (theItem) {
         var theToggle = theItem.querySelector('.dropdown-toggle');
@@ -34,18 +34,7 @@
           theToggle.classList.toggle('active');
         }
       }
-    });
+  	});
   }
-
-  document.getElementById("btn1").addEventListener("click", function () {
-    this.classList.toggle("bg-primary");
-    this.classList.toggle("text-light");
-  });
-
-  document.getElementById('btn2').addEventListener('click', function () {
-    this.classList.toggle("bg-light");
-    this.classList.toggle("text-secondary");
-  });
-
 
 })()
