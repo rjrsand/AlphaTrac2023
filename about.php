@@ -5,8 +5,8 @@
     <base href="/">
     <script src="dmxAppConnect/dmxAppConnect.js"></script>
     <meta charset="UTF-8">
-    <title>Untitled Document</title>
-
+    <title>About Alphatrac</title>
+    <meta name="description" content="A description and breif history of Alphatrac is detailed">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="bootstrap/5/css/bootstrap.min.css" />
@@ -51,6 +51,7 @@
 
 
     <script src="js/script.js"></script>
+    <script src="bootstrap/5/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

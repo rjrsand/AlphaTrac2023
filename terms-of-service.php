@@ -5,9 +5,10 @@
     <base href="/">
     <script src="dmxAppConnect/dmxAppConnect.js"></script>
     <meta charset="UTF-8">
-    <title>Untitled Document</title>
+    <title>Terms of Service</title>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+    <meta name="description" content="Alphatrac, Carrier Beacon's terms of service is detailed.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="bootstrap/5/css/bootstrap.min.css" />
@@ -17,29 +18,7 @@
 
 <body is="dmx-app" id="index">
     <div is="dmx-browser" id="browser1"></div>
-    <header class="bg-light">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col">
-                    <nav class="navbar navbar-expand-lg fixed-top bg-transparent ps-4 pe-4 navbar-light">
-                        <a class="navbar-brand ms-auto" href="#">
-                            <img width="220px" height="50px" src="assets/alphatrac-logo.svg"></a>
-                        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1_collapse" aria-controls="navbar1_collapse" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse justify-content-end fw-light" id="navbar1_collapse">
-                            <div class="navbar-nav">
-                                <a class="nav-item nav-link text-light" href="#">Products</a>
-                                <a class="nav-item nav-link text-light" href="#">About</a>
-                                <a class="nav-item nav-link text-light" href="#">Newsletter</a>
-                                <a class="nav-item nav-link text-light" href="#">Contact</a>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
+    <?php include 'comp--header_navbar.php'; ?>
     <main class="vh-100">
         <div class="h-100 container-fluid">
             <div class="row h-100">
@@ -102,6 +81,7 @@
 
 
     <script src="js/script.js"></script>
+    <script src="bootstrap/5/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
