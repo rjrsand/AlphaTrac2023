@@ -6,22 +6,23 @@
     <script src="dmxAppConnect/dmxAppConnect.js"></script>
     <meta charset="UTF-8">
     <title>Terms of Service</title>
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
-    <meta name="description" content="Alphatrac, Carrier Beacon's terms of service is detailed.">
+    <meta name="description" content="Alphatrac details the different products available.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="bootstrap/5/css/bootstrap.min.css" />
     <script src="dmxAppConnect/dmxBootstrap5Navigation/dmxBootstrap5Navigation.js" defer></script>
     <script src="dmxAppConnect/dmxBrowser/dmxBrowser.js" defer></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-VhBcF/php0Z/P5ZxlxaEx1GwqTQVIBu4G4giRWxTKOCjTxsPFETUDdVL5B6vYvOt" crossorigin="anonymous" />
+    <script src="dmxAppConnect/dmxFormatter/dmxFormatter.js" defer></script>
 </head>
 
 <body is="dmx-app" id="index">
+    <dmx-value id="selected_product"></dmx-value>
     <div is="dmx-browser" id="browser1"></div>
     <?php include 'comp--header_navbar.php'; ?>
     <main class="vh-100">
         <div class="h-100 container-fluid">
-            <div class="row h-100">
+            <div class="row vh-100 justify-content-between">
                 <div class="col-lg-6 main-col-pt align-self-center gx-5">
                     <div class="d-flex">
                         <h2 class="ms-2 style4">Terms of Service</h2>
@@ -52,24 +53,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 bg-primary main-col-pt text-light text-center fw-light align-self-center h-100 gx-5">
-                    <div class="d-flex justify-content-center mt-5 mb-5">
-                        <a><img class="img-fluid" src="assets/alpha-logo.svg" width="253" height="253"></a>
-                    </div>
-                    <div class="d-flex justify-content-center mt-5 mb-5">
-                        <h3>Welcome to AlphaTrac.</h3>
-                    </div>
-                    <div class="d-flex  style5">
-                        <p>Software solutions for businesses and individuals looking to supercharge their motor carrier and logistics management.</p>
-                    </div>
-                    <div class="d-flex justify-content-center style5 fst-italic mt-5 mb-5">
-                        <p>Thanks for your interest.</p>
-                    </div>
-                    <div class="d-flex justify-content-center">
-                        <a class="nav-item nav-link text-light" href="privacy-policy.php">Privacy Policy</a>
-                        <a class="nav-item nav-link text-light">|</a>
-                        <a class="nav-item nav-link text-light" href="terms-of-service.php">Terms of Service</a>
-                    </div>
+                <div class="col-lg-6 bg-primary main-col-pt text-light text-center fw-light gx-5 h-100">
+                    <?php include 'comp--alphatrac_right_col.php'; ?>
                 </div>
             </div>
         </div>
