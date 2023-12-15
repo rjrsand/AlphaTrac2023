@@ -30,15 +30,15 @@
                     <p class="style2 ms-2 lead">Our team is happy to address your question, concern, or general message. Please tell us...</p>
                     <div class="d-flex fw-light mt-2 ms-2 flex-column">
                         <label for="user-name" class="ps-1 style7 col">Enter your name:</label>
-                        <input id="user-name" name="user-name" type="text" class="form-control mt-2 mb-3" placeholder="Jane Smith" required="">
+                        <input id="user-name" name="user-name" type="text" class="form-control mt-2 mb-3 fw-light" placeholder="Jane Smith" required="">
                     </div>
                     <div class="d-flex fw-light mt-2 ms-2 flex-column">
                         <label for="user-email" class="ps-1">Enter you email address:</label>
-                        <input id="user-email" name="user-email" type="email" class="form-control mt-2 mb-3" placeholder="jane@smithy.co" required="">
+                        <input id="user-email" name="user-email" type="email" class="form-control mt-2 mb-3 fw-light" placeholder="jane@smithy.co" required="">
                     </div>
                     <div class="d-flex fw-light mt-2 ms-2 text-break flex-column">
                         <label for="message" class="pb-2 ps-1">Tell us what is on your mind?</label>
-                        <textarea id="message" class="form-control" placeholder="Your message to our team..." required="true"></textarea>
+                        <textarea id="message" class="form-control fw-light" placeholder="Your message to our team..." required="true"></textarea>
 
 
                     </div>
