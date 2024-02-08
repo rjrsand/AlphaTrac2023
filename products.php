@@ -20,6 +20,19 @@
     <dmx-value id="selected_product"></dmx-value>
     <div is="dmx-browser" id="browser1"></div>
     <?php include 'comp--header_navbar.php'; ?>
+
+    <main class="vh-100 d-none">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col align-self-center">
+                    <h1 class="text-center display-3"><i class="far fa-sensor-alert"></i></h1>
+                    <h1 class="text-center">We're currently offline.</h1>
+                    <h4 class="text-center fw-light">Scheduled maintenance is underway, please check back later.</h4>
+                </div>
+
+            </div>
+        </div>
+    </main>
     <main class="vh-100">
         <div class="h-100 container-fluid">
             <div class="row vh-100 justify-content-between">
@@ -32,7 +45,7 @@
                             <div class="d-flex style2 mt-2 ms-2">
                                 <h5 class="fw-light lh-base mb-4 me-4">Discover our suite of tools to supercharge your motor carrier and logistics management. Choose a product to continue...</h5>
                             </div>
-                            <div class="row border rounded g-0 mt-2 ms-2 me-4 pt-1 pb-1 univ-hover" dmx-on:click="selected_product.setValue('https://unstable.alphatracit.com/landing.php')" dmx-class:glow="(selected_product.value == 'https://unstable.alphatracit.com/landing.php')">
+                            <div class="row border rounded g-0 mt-2 ms-2 me-4 pt-1 pb-1 univ-hover" dmx-on:click="selected_product.setValue('https://carrierbeacon.com')" dmx-class:glow="(selected_product.value == 'https://carrierbeacon.com')">
                                 <div class="offset-0 align-self-center col-12 col-lg-auto text-start ps-2">
                                     <a><img src="assets/carrier-beacon-logo.png" class="img-fluid mt-3 mb-2 ms-2 mb-lg-3 ms-lg-3" width="154px" height="60px"></a>
                                 </div>
