@@ -1,7 +1,7 @@
 <!-- Wappler include head-page="products.php" appConnect="local" is="dmx-app" bootstrap5="local" fontawesome_5pro="cdn" -->
 <div class="d-flex flex-column justify-content-between h-100">
-    <div class="d-flex flex-column">
-        <div class="d-flex justify-content-center mt-5 mb-5">
+    <div class="d-flex flex-column mt-auto mb-auto">
+        <div class="d-flex justify-content-center mt-auto mb-5">
             <a><img class="img-fluid" src="assets/new-alphatrac-logo.svg" width="253" height="253"></a>
         </div>
         <div class="d-flex justify-content-center mt-4 mb-3">
@@ -10,7 +10,7 @@
         <div class="d-flex style5 justify-content-center">
             <h5 class="fw-light" style="max-width: 600px;">Software solutions for businesses and individuals looking to supercharge their motor carrier and logistics management.</h5>
         </div>
-        <div class="d-flex justify-content-center style5 fst-italic mt-5 mb-5">
+        <div class="d-flex justify-content-center style5 fst-italic mt-5 mb-2">
             <p class="mt-3 mb-5">Your interest is appreciated.</p>
         </div>
     </div>

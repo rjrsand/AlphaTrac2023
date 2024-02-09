@@ -30,7 +30,7 @@
                     <div class="row border rounded g-0 mt-2 ms-2 me-2 pt-1 pb-1 border-2" id="article">
                         <div class="col">
                             <div class="d-flex">
-                                <article class="article ps-3 fw-light">
+                                <article class="article fw-light">
                                     <br>
                                     <p class="ps-3" style="text-decoration: underline;">1. Acceptance of Terms of Service</p>
                                     <p class="ps-3">By accessing and utilizing the carrierbeacon.com website, its associated products, and services (collectively, the "Services"), including any mobile applications or other platforms connected or linked to it (altogether, the "Website"), you, either as an individual or on behalf of an entity ("you" or “customer”), enter into a legally binding contract with ALPHATRAC, LLC, an Ohio Limited Liability Company. ("Company", "we", "us", or "our"). This contract is governed by these Terms of Service, which you acknowledge having read, understood, and agreed to be bound by. Should you disagree with these Terms of Service, you are explicitly forbidden from using the Website and must cease all use immediately.
