@@ -60,7 +60,7 @@
                 <div class="modal-content bg-light-subtle">
                     <div class="modal-header border-bottom-0 mb-2 pb-1">
                         <h5 class="modal-title">Contact us</h5>
-                        <button class="btn-close" data-bs-dismiss="modal" is="dmx-button" value="" type="button"></button>
+                        <button class="btn-close" data-bs-dismiss="modal" is="dmx-button" value="" type="button" id="top_close"></button>
                     </div>
 
                     <div class="modal-body pt-1" id="modal_body">
@@ -85,7 +85,22 @@
 
     </main>
 
+    <script>
+        document.getElementById('modal_platform_support').style.display = 'none';
 
+        document.getElementById('btn2').addEventListener('click', function() {
+        document.getElementById('modal_platform_support').style.display = 'block';
+        });
+
+document.getElementById('close_btn').addEventListener('click', function() {
+    document.getElementById('modal_platform_support').style.display = 'none';
+});
+
+document.getElementById('top_close').addEventListener('click', function() {
+    document.getElementById('modal_platform_support').style.display = 'none';
+});
+
+    </script>
 
     <script src="bootstrap/5/js/bootstrap.min.js"></script>
 
