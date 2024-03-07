@@ -34,7 +34,7 @@
                     </div>
                     <div class="row">
                         <div class="col-12 text-end">
-                            <button id="btn2" class="btn border rounded w-100 text-light bg-primary mt-4 mb-2 me-2" dmx-on:click="">Contact Us<i class="fas fa-arrow-right ps-2"></i></button>
+                            <button id="btn2" class="btn border rounded w-100 text-light bg-primary mt-4 mb-2 me-2" dmx-on:click="browser1.goto('contact.php')">Contact Us<i class="fas fa-arrow-right ps-2"></i></button>
                         </div>
                     </div>
                 </div>
